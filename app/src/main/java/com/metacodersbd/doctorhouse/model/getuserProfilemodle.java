@@ -3,12 +3,27 @@ package com.metacodersbd.doctorhouse.model;
 public class getuserProfilemodle {
 
 
-    String name , gender , age ;
+    String name , gender , age  , uid  ;
 
     public getuserProfilemodle() {
     }
 
-    public getuserProfilemodle(String name, String gender, String age) {
+    public getuserProfilemodle(String name, String gender, String age, String uid) {
+        this.name = name;
+        this.gender = gender;
+        this.age = age;
+        this.uid = uid;
+    }
+
+    public String getUid() {
+        return uid;
+    }
+
+    public void setUid(String uid) {
+        this.uid = uid;
+    }
+
+    public getuserProfilemodle(String name, String gender, String age ) {
         this.name = name;
         this.gender = gender;
         this.age = age;
