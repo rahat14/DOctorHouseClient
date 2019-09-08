@@ -19,6 +19,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.metacodersbd.doctorhouse.HomePage;
 import com.metacodersbd.doctorhouse.MainActivity;
 import com.metacodersbd.doctorhouse.R;
 
@@ -118,7 +119,7 @@ public class signInPage extends AppCompatActivity {
                       {
                           // he is successfully logged in
 
-                          Intent i = new Intent(getApplicationContext()  , MainActivity.class);
+                          Intent i = new Intent(getApplicationContext()  , HomePage.class);
                           startActivity(i);
                           finish();
 
@@ -168,7 +169,7 @@ public class signInPage extends AppCompatActivity {
 
             // as user is not null then the user is all ready logged in
 
-            Intent i = new Intent(getApplicationContext()  , MainActivity.class);
+            Intent i = new Intent(getApplicationContext()  , HomePage.class);
             startActivity(i);
             finish();
 
