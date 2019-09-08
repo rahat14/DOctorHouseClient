@@ -24,19 +24,34 @@
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:layout_gravity="center"
-      android:background="@drawable/hospital"
-      android:alpha="1"
       android:gravity="center">
-      <TextView
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="Cumillaa Hospital"
-          android:layout_gravity="center"
-          android:gravity="center"
-          android:fontFamily="@font/monbold"
-          android:textColor="#FFFFFF"
-          android:textSize="30sp"
-          />
+
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:background="@drawable/hospital"
+          android:layout_height="wrap_content"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Comilla Hospital"
+              android:id="@+id/hosName"
+              android:textSize="26dp"
+              android:textAlignment="center"
+              android:layout_gravity="center"
+              android:textColor="#fff"
+              android:fontFamily="@font/monbold"
+
+
+              />
+      </FrameLayout>
+
+
 
   </LinearLayout>
 
