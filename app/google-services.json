@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "219177118189",
+    "firebase_url": "https://doctorhouse-21757.firebaseio.com",
+    "project_id": "doctorhouse-21757",
+    "storage_bucket": "doctorhouse-21757.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219177118189:android:09bd58b4032a906ab71fe4",
+        "android_client_info": {
+          "package_name": "com.metacodersbd.doctorhouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219177118189-n3sba0ud2hevt439k9hq6k2reano9k2v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.metacodersbd.doctorhouse",
+            "certificate_hash": "e7134e9e771c4552820851631487affe4d0ba29b"
+          }
+        },
+        {
+          "client_id": "219177118189-rru13eg2v3a64vpi16ago53euml2v8gv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNV9RM1GbGwg59I0-JQkadwwUtq-95g1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219177118189-rru13eg2v3a64vpi16ago53euml2v8gv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
