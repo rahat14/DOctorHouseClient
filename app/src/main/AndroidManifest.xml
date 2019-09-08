@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Client_Ac_setupPage"></activity>
+        <activity android:name=".Row_Hospital"></activity>
+        <activity android:name=".Add_Appointment" />
+        <activity android:name=".Client_Ac_setupPage" />
         <activity android:name=".HomePage" />
         <activity android:name=".MainActivity" />
         <activity

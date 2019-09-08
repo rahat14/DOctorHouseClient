@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#423C3C"
-    tools:context=".Client_Ac_setupPage">
+    tools:context=".Client">
 
     <TextView
         android:layout_width="wrap_content"
