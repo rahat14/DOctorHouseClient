@@ -9,189 +9,189 @@
     tools:context=".Client">
 
     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Create Account"
+android:layout_marginTop="20dp"
+android:layout_gravity="center"
+android:textColor="#00BCD4"
+android:textSize="18sp"
+android:fontFamily="@font/monbold"
+android:layout_marginLeft="20dp"
+android:layout_marginRight="20dp"/>
+
+<LinearLayout
+
+android:orientation="vertical"
+android:layout_marginTop="50dp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Name"
+    android:textColor="#00BCD4"
+    android:textSize="16sp"
+    android:fontFamily="@font/monbold"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="name"
+    android:textColorHint="#fff"
+    android:textColor="#ffff"
+    android:paddingLeft="8dp"
+    android:backgroundTint="#b7b7b7"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:textSize="17dp"
+    android:id="@+id/name"
+    android:layout_gravity="center_vertical"/>
+
+
+</LinearLayout>
+<LinearLayout
+
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Age"
+
+    android:textColor="#00BCD4"
+    android:textSize="16sp"
+    android:fontFamily="@font/monbold"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="22"
+    android:textColorHint="#fff"
+    android:inputType="numberSigned"
+    android:id="@+id/age"
+    android:textColor="#ffff"
+    android:backgroundTint="#b7b7b7"
+    android:paddingLeft="8dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+
+    android:textSize="17dp"
+    android:layout_gravity="center_vertical"/>
+
+
+</LinearLayout>
+<LinearLayout
+
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Department"
+    android:textColor="#00BCD4"
+    android:textSize="16sp"
+    android:visibility="gone"
+    android:fontFamily="@font/monbold"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="CSE"
+    android:textColor="#ffff"
+    android:paddingLeft="8dp"
+    android:visibility="gone"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:backgroundTint="#b7b7b7"
+    android:textSize="17dp"
+
+
+    android:layout_gravity="center_vertical"/>
+
+
+</LinearLayout>
+<LinearLayout
+
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Gender"
+    android:textColor="#00BCD4"
+    android:textSize="16sp"
+    android:fontFamily="@font/monbold"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"/>
+
+
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:id="@+id/genderGroup"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="16dp">
+
+    <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Create Account"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:textColor="#00BCD4"
-        android:textSize="18sp"
-        android:fontFamily="@font/monbold"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"/>
-
-    <LinearLayout
-
-        android:orientation="vertical"
-        android:layout_marginTop="50dp"
-        android:layout_width="match_parent"
+        android:textColor="#ffff"
+        android:checked="true"
+        android:id="@+id/male"
+        android:text="Male"/>
+    <RadioButton
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:id="@+id/female"
+        android:text="Female"/>
 
-        >
+</RadioGroup>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Name"
-            android:textColor="#00BCD4"
-            android:textSize="16sp"
-            android:fontFamily="@font/monbold"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="name"
-            android:textColorHint="#fff"
-            android:textColor="#ffff"
-            android:paddingLeft="8dp"
-            android:backgroundTint="#b7b7b7"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:textSize="17dp"
-            android:id="@+id/name"
-            android:layout_gravity="center_vertical"/>
-
-
-    </LinearLayout>
-    <LinearLayout
-
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Age"
-
-            android:textColor="#00BCD4"
-            android:textSize="16sp"
-            android:fontFamily="@font/monbold"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="22"
-            android:textColorHint="#fff"
-            android:inputType="numberSigned"
-            android:id="@+id/age"
-            android:textColor="#ffff"
-            android:backgroundTint="#b7b7b7"
-            android:paddingLeft="8dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-
-            android:textSize="17dp"
-            android:layout_gravity="center_vertical"/>
-
-
-    </LinearLayout>
-    <LinearLayout
-
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Department"
-            android:textColor="#00BCD4"
-            android:textSize="16sp"
-            android:visibility="gone"
-            android:fontFamily="@font/monbold"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="CSE"
-            android:textColor="#ffff"
-            android:paddingLeft="8dp"
-            android:visibility="gone"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:backgroundTint="#b7b7b7"
-            android:textSize="17dp"
-
-
-            android:layout_gravity="center_vertical"/>
-
-
-    </LinearLayout>
-    <LinearLayout
-
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Gender"
-            android:textColor="#00BCD4"
-            android:textSize="16sp"
-            android:fontFamily="@font/monbold"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"/>
-
-
-        <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:id="@+id/genderGroup"
-            android:layout_marginLeft="24dp"
-            android:layout_marginRight="16dp">
-
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="#ffff"
-                android:checked="true"
-                android:id="@+id/male"
-                android:text="Male"/>
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="#ffff"
-                android:id="@+id/female"
-                android:text="Female"/>
-
-        </RadioGroup>
-
-    </LinearLayout>
+</LinearLayout>
 
 
 <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_gravity="center|bottom"
-    android:gravity="bottom|center"
-    android:layout_height="match_parent">
-    <Button
-        android:id="@+id/Submitbtn"
-        android:layout_width="240dp"
-        android:layout_height="50dp"
-        android:layout_gravity="bottom"
-        android:background="@drawable/gradient"
-        android:text="Update"
-        android:gravity="center"
+android:layout_width="match_parent"
+android:layout_gravity="center|bottom"
+android:gravity="bottom|center"
+android:layout_height="match_parent">
+<Button
+    android:id="@+id/Submitbtn"
+    android:layout_width="240dp"
+    android:layout_height="50dp"
+    android:layout_gravity="bottom"
+    android:background="@drawable/gradient"
+    android:text="Update"
+    android:gravity="center"
 
-        android:fontFamily="@font/monbold"
-        android:textSize="18sp"
-        android:textColor="#ffffff"
-        android:foreground="?attr/selectableItemBackground"
-        android:layout_marginBottom="50dp"
-        />
+    android:fontFamily="@font/monbold"
+    android:textSize="18sp"
+    android:textColor="#ffffff"
+    android:foreground="?attr/selectableItemBackground"
+    android:layout_marginBottom="50dp"
+    />
 </LinearLayout>
 
 
-</LinearLayout>
+    </LinearLayout>
