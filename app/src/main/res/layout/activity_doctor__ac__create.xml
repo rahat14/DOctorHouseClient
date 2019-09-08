@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Doctor_Ac_Create"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Doctor Account"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#00BCD4"
+        android:textSize="18sp"
+        android:fontFamily="@font/monbold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor Name"
+            android:textColor="#00BCD4"
+            android:textSize="16sp"
+            android:fontFamily="@font/monbold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dr.Jhon"
+            android:textColorHint="#b7b7b7"
+            android:textColor="#00BCD4"
+            android:paddingLeft="8dp"
+            android:backgroundTint="#b7b7b7"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="17dp"
+            android:id="@+id/doc_name"
+            android:layout_gravity="center_vertical"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hospital Name"
+
+            android:textColor="#00BCD4"
+            android:textSize="16sp"
+            android:fontFamily="@font/monbold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cumilla Hospital"
+            android:textColorHint="#b7b7b7"
+            android:inputType="numberSigned"
+            android:id="@+id/loc"
+            android:textColor="#00BCD4"
+            android:backgroundTint="#b7b7b7"
+            android:paddingLeft="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:textSize="17dp"
+            android:layout_gravity="center_vertical"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visiting Time"
+
+            android:textColor="#00BCD4"
+            android:textSize="16sp"
+            android:fontFamily="@font/monbold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="08:10 AM"
+            android:textColorHint="#b7b7b7"
+            android:inputType="numberSigned"
+            android:id="@+id/vst_tm"
+            android:textColor="#00BCD4"
+            android:backgroundTint="#b7b7b7"
+            android:paddingLeft="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:textSize="17dp"
+            android:layout_gravity="center_vertical"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor Fees"
+
+            android:textColor="#00BCD4"
+            android:textSize="16sp"
+            android:fontFamily="@font/monbold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <EditText
+            android:id="@+id/fees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#b7b7b7"
+            android:hint="1000 TK"
+            android:inputType="numberSigned"
+            android:paddingLeft="8dp"
+            android:textColor="#00BCD4"
+
+            android:textColorHint="#b7b7b7"
+            android:textSize="17dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center|bottom"
+        android:gravity="bottom|center"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/Submitbtn"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/gradient"
+            android:text="Update"
+            android:gravity="center"
+
+            android:fontFamily="@font/monbold"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="50dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

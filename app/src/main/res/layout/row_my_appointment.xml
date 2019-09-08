@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#CDF2F8"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/gradient"
+            android:layout_gravity="center_horizontal"
+
+
+            >
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="vertical"
+            android:background="@drawable/gradient"
+            android:layout_gravity="center_horizontal"
+
+
+            >
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="left|center"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_horizontal">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dr.Jhon"
+                    android:textColor="#ffff"
+                    android:paddingLeft="8dp"
+                    android:fontFamily="@font/monbold"
+                    android:textSize="25sp"
+                    android:id="@+id/docName"
+                    android:layout_gravity="center_vertical"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cumilla Hospital"
+                    android:textColor="#ffff"
+                    android:paddingLeft="7dp"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/monregular"
+                    android:id="@+id/blood_profile"
+                    android:layout_gravity="center_vertical"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="1000"
+                        android:fontFamily="@font/monregular"
+                        android:textColor="#ffff"
+                        android:paddingLeft="7dp"
+                        android:id="@+id/Vfee"
+                        android:layout_gravity="center_vertical"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TK"
+                        android:textColor="#ffff"
+                        android:paddingLeft="5dp"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/monregular"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="10:00 AM"
+                        android:fontFamily="@font/monregular"
+                        android:textColor="#ffff"
+                        android:paddingLeft="7dp"
+                        android:id="@+id/time"
+                        android:layout_gravity="center_vertical"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 01/11/19"
+                        android:textColor="#ffff"
+                        android:paddingLeft="35dp"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/monregular"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#FFFFFF"
+             android:layout_gravity="center"
+             android:gravity="center"
+             >
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Accepted"
+                 android:gravity="center"
+                 android:textColor="#00BE06"
+                 android:paddingLeft="8dp"
+                 android:fontFamily="@font/monbold"
+                 android:textSize="15sp"
+                 android:layout_gravity="center"/>
+
+         </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

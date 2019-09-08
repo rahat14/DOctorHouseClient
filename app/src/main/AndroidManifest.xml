@@ -12,8 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".categoryList"></activity>
-        <activity android:name=".doctorListLPage" />
+        <activity android:name=".Doctor_Ac_Create"></activity>
+        <activity android:name=".Hospital_Details" />
         <activity android:name=".Row_Hospital" />
         <activity android:name=".Add_Appointment" />
         <activity android:name=".Client_Ac_setupPage" />
