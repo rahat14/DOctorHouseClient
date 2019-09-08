@@ -93,14 +93,11 @@ public class hospital_ListActivity extends AppCompatActivity {
 
 
 
-            //            Intent io = new Intent(getApplicationContext() , Activity_Bid_Page_Driver.class) ;
+                       Intent io = new Intent(getApplicationContext() , categoryList.class) ;
 
-              //          io.putExtra("postid", PostID);
+                       io.putExtra("postid", PostID);
 
-
-
-
-                  //      startActivity(io);
+                       startActivity(io);
 
 
 

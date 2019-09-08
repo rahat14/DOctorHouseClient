@@ -9,40 +9,29 @@
 
     <androidx.cardview.widget.CardView
         android:foreground="?attr/selectableItemBackground"
-        android:id="@+id/SrcHosptal"
+        android:id="@+id/category"
         android:layout_width="match_parent"
-        android:layout_height="180dp"
+        android:layout_height="100dp"
         app:cardCornerRadius="5dp"
 
         android:elevation="2dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         app:cardElevation="20dp">
-
 
 
         <LinearLayout
             android:foreground="?attr/selectableItemBackground"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
+            android:background="@drawable/gradient"
             android:gravity="center">
 
 
-            <FrameLayout
-                android:foreground="?attr/selectableItemBackground"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:id="@+id/imageVIew"
-                    android:background="@drawable/hospital"
-                    android:layout_height="wrap_content"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Comilla Hospital"
+                    android:text="something"
                     android:id="@+id/hosName"
                     android:textSize="26dp"
                     android:textAlignment="center"
@@ -52,7 +41,7 @@
 
 
                     />
-            </FrameLayout>
+
 
 
 

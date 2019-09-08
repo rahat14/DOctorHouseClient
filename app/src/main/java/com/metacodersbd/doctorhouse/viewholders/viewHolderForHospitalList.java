@@ -15,8 +15,7 @@ import com.squareup.picasso.Picasso;
 
 public class viewHolderForHospitalList extends RecyclerView.ViewHolder {
         View mview ;
-public TextView statusTv ;
-public CardView cardView  ;
+
 
 
 public viewHolderForHospitalList(@NonNull View itemView) {

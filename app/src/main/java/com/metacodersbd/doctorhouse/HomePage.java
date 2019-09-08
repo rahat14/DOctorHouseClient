@@ -12,7 +12,7 @@ import androidx.cardview.widget.CardView;
 public class HomePage extends AppCompatActivity {
 
 
-CardView serchHospital ;
+CardView serchHospital , doctorList  ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,8 @@ CardView serchHospital ;
         //a@gmail.com password
 
         serchHospital = findViewById(R.id.SrcHosptal) ;
+        doctorList = findViewById(R.id.SrcDoctor) ;
+
 
 
 
@@ -37,6 +39,19 @@ CardView serchHospital ;
             }
         });
 
+
+        doctorList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent io = new Intent(getApplicationContext() , doctorListLPage.class) ;
+                io.putExtra("postid", "allDoc");
+                io.putExtra("hosName" , "null") ;
+                startActivity(io);
+
+
+            }
+        });
 
     }
 }
