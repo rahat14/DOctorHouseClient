@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#423C3C"
+    android:background="#FFFFFF"
     tools:context=".Client">
 
     <TextView
@@ -14,7 +14,7 @@
         android:text="Create Account"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:textColor="#Ec4d37"
+        android:textColor="#00BCD4"
         android:textSize="18sp"
         android:fontFamily="@font/monbold"
         android:layout_marginLeft="20dp"
@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Name"
-            android:textColor="#Ec4d37"
+            android:textColor="#00BCD4"
             android:textSize="16sp"
             android:fontFamily="@font/monbold"
             android:layout_marginLeft="20dp"
@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             android:text="Age"
 
-            android:textColor="#EC4D37"
+            android:textColor="#00BCD4"
             android:textSize="16sp"
             android:fontFamily="@font/monbold"
             android:layout_marginLeft="20dp"
@@ -137,7 +137,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Gender"
-            android:textColor="#EC4D37"
+            android:textColor="#00BCD4"
             android:textSize="16sp"
             android:fontFamily="@font/monbold"
             android:layout_marginLeft="20dp"
@@ -181,7 +181,7 @@
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:layout_gravity="bottom"
-        android:background="@drawable/gradient_back"
+        android:background="@drawable/gradient"
         android:text="Update"
         android:gravity="center"
 
