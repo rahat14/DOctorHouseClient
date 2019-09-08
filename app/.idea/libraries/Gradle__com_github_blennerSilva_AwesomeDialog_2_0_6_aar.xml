@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.blennerSilva:AwesomeDialog:2.0.6@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bb9e1f6f8d512bf9dc2f6cfa7fe782c0/jetified-AwesomeDialog-2.0.6/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bb9e1f6f8d512bf9dc2f6cfa7fe782c0/jetified-AwesomeDialog-2.0.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68c4b1c44df90e1be53b21a7a17059d9/jetified-AwesomeDialog-2.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68c4b1c44df90e1be53b21a7a17059d9/jetified-AwesomeDialog-2.0.6/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
