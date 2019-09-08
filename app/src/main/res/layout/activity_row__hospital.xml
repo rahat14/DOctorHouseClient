@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="#000"
     tools:context=".Row_Hospital">
 
     <androidx.cardview.widget.CardView
+        android:foreground="?attr/selectableItemBackground"
         android:id="@+id/SrcHosptal"
         android:layout_width="match_parent"
         android:layout_height="180dp"
@@ -21,20 +21,23 @@
 
 
   <LinearLayout
+      android:foreground="?attr/selectableItemBackground"
       android:layout_width="match_parent"
-      android:layout_height="match_parent"
+      android:layout_height="wrap_content"
       android:layout_gravity="center"
       android:gravity="center">
 
 
       <FrameLayout
+          android:foreground="?attr/selectableItemBackground"
           android:layout_width="match_parent"
           android:layout_height="wrap_content">
 
 
       <ImageView
           android:layout_width="match_parent"
-          android:background="@drawable/hospital"
+          android:id="@+id/imageVIew"
+            android:background="@drawable/hospital"
           android:layout_height="wrap_content"/>
           <TextView
               android:layout_width="wrap_content"

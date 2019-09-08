@@ -52,6 +52,7 @@
 
           </androidx.cardview.widget.CardView>
           <androidx.cardview.widget.CardView
+              android:foreground="?attr/selectableItemBackground"
               android:id="@+id/SrcHosptal"
               android:layout_width="180dp"
               android:layout_height="100dp"

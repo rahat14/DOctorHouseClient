@@ -27,6 +27,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login_Reg_Controller.Registration" />
+        <activity android:name=".hospital_ListActivity"></activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

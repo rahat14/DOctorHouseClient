@@ -2,12 +2,15 @@ package com.metacodersbd.doctorhouse.viewholders;
 
 import android.content.Context;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.metacodersbd.doctorhouse.R;
+import com.squareup.picasso.Picasso;
 
 
 public class viewHolderForHospitalList extends RecyclerView.ViewHolder {
@@ -35,16 +38,19 @@ public void onClick(View v) {
         });
 
         }
-public   void setDataToView(Context context , String  name  ){
+public   void setDataToView(Context context , String  name , String link   ){
 
-        TextView hosname = mview.findViewById(R.id.dateOfRows);
-
-
-
+        TextView hosname = mview.findViewById(R.id.hosName);
+        ImageView imageView = mview.findViewById(R.id.imageVIew) ;
 
 
 
-        statusTv.setText(status);
+       //     Picasso.get().load(link).into(imageView);
+
+
+
+        hosname
+                .setText(name);
 
         }
 
